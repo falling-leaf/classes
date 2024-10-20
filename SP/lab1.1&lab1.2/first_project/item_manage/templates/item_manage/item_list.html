@@ -1,0 +1,32 @@
+{% extends 'item_manage/base.html' %}
+{% load mytags %}
+
+{% block title_content %}商品列表{% endblock %}
+{% block body_content %}
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>名称</th>
+      <th>类型</th>
+      <th>价格</th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for item in object_list %}
+      <tr>
+        <td>{{ item.name }}</td>
+        <td>{{ item.type }}</td>
+        <td>{{ item.price }}</td>
+        <td><a class="btn btn-sm btn-outline-success" href="{% url 'item_manage:item_update' item.pk %}">更新</a></td>
+      </tr>
+    {% empty %}
+      <tr>
+        <td colspan="3">暂无数据</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <p><a class="btn btn-primary" href="{% url 'item_manage:item_create' %}">添加</a></p>
+{% endblock %}
+

@@ -1,0 +1,10 @@
+K.Weng exam1 5 exam2 5 exam3 5
+T.Dixon exam2 4 exam3 3 exam4 2
+V.Chu exam3 3 exam4 4 exam5 5
+L.Tson exam4 4 exam5 3 exam1 4
+L.Lee exam5 3 exam1 4 exam2 3
+I.Young exam1 4 exam2 2 exam3 5
+K.Hiro exam2 4 exam3 2 exam4 1
+G.Ping exam3 4 exam4 4 exam5 4
+H.Gu exam4 2 exam5 3 exam1 4
+J.Jon exam5 5 exam1 4 exam2 3

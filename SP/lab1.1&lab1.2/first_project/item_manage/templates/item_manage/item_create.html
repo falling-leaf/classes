@@ -1,0 +1,17 @@
+{% extends 'item_manage/base.html' %}
+{% load mytags %}
+{% block title_content %}添加商品{% endblock %}
+
+{% block body_content %}
+    <form action="{% url 'item_manage:item_create' %}" method="post">
+      {% csrf_token %}
+      {% for item in form %}
+        <div class="col-md-6 mb-3">
+          {{ item|label_class:'form-label' }}
+          {{ item }}
+          {{ item.errors }}
+        </div>
+      {% endfor %}
+      <button type="submit" class="btn btn-primary">保存</button>
+    </form>
+{% endblock %}
