@@ -1,5 +1,0 @@
-"biology","manual","press1","2024","author1","20.4","1"
-"geography","manual","press1","2024","author2","20.4","2"
-"physics","manual","press1","2024","author3","20.4","3"
-"math","manual","press1","2024","author4","20.4","4"
-"Chinese","manual","press1","2024","author5","20.4","5"

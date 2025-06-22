@@ -1,3 +1,0 @@
-stu1 Math 5 Chinese 4 English 3
-stu2 Math 4 Chinese 3 English 2
-stu3 Math 3 Chinese 2 English 1
